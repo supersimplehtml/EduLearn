@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+
+object {
+    width: 100%;
+}
+
+#main {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+#hero {
+    width: 100%;
+    height: 100vh;
+}
+
+#herocontent {
+    padding: 10vh;
+}
+
+.display-1, .h2 {
+    color: white;
+}
+
+.elem {
+    font-weight: 900;
+    transform: translateY(104%);
+}
+
+.h1 {
+    overflow: hidden;
+}
+
+.butn {
+    margin-left: 40%;
+    margin-top: 15%;
+}
+
+#second {
+    color: #fff;
+    padding-right: 10vw;
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+}
+
+.selem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #888;
+}
+
+.selem h1 {
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: 0.7;
+}
+
+.elemlast {
+    border-bottom: 1px solid #888;
+}
+
+.selem img {
+    opacity: 0;
+    pointer-events: none;
+    height: 140%;
+    z-index: 999;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+body::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+}
+
+#minicircle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+}
